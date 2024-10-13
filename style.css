@@ -7,26 +7,43 @@
 }
 
 * {
-    font-family:sans-serif ;
-    src: url(bold);
-    background-color: skyblue;
-}
-
-.image{
-    border-style:solid ;
-    border-color: #f4d069;
-}
-
-*{
     background-color: aquamarine;
 }
 
-#head{
-    color: #0482e0;
+body{
+    font-family: sans-serif;
+}
+
+img{
+    border-style:solid ;
+    border-color: #f4d069;
+    margin: auto;
+    
+    
 }
 
 #center{
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    margin: auto;
+
 }
+
+.gallary{
+    display: inline-block;
+    border: 5px solid hsl(0, 0%, 60%);
+    margin: 10px;
+    border: #1c4c85 solid;
+    background-color: #f4d069;
+}
+.gallary:hover{
+    border: 5px #1c4c85
+    
+}
+
+
+.cabin-sketch-bold { 
+    font-family: "Cabin Sketch", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+
