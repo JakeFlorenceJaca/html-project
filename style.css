@@ -1,49 +1,200 @@
-.intro {
-    background-color:#f4d069;
-    border-style: solid;
-    border-color: #1c4c85;
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* Navigation bar */
+
+#box1{
+    
+    border: 1px solid;
+    width: 100%;
+    height: 140px;
+    background-color: rgb(48, 43, 38);
+    top: 0px;
+    right: 0%;
+    position: sticky;
+    
+}
+
+.box2{
+    background-color: wheat;
+    width: 80px;
+    height: 70px;
+    border-radius: 50%;
+    position: absolute;
+    top: 15%;
+    left: 60px;
+    
+
+}
+
+.nav1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 40px;
+    padding-left: 10%;
+    padding-right: 10%;
+    
+
+}
+
+.logo{
+    color: rgb(173, 165, 150);
+    font-weight: 900;
+    font-size: 28px;
+    text-decoration: none;
+}
+
+.nav1 ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 20px;
+}
+
+.nav1 ul li a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.nav1 ul li a:hover{
+    color:rgba(255, 0, 0, 0.623);
+    text-decoration: none;
+    font-weight: bold;
+    transition-duration: 0.4s;
+}
+/*Navigation bar */
+
+.contentimage{
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(images/backgroundimage.jpg);
+    background-size: cover;
+    background-position: center;
     text-align: center;
+    
+
+    
+}
+
+.contentimage h1{
+    font-weight: 800;
+    font-size: 400%;
+    color: blanchedalmond;
+    padding-top:5px;
+    text-transform: uppercase;
+    
+}
+
+.contentimage h2{
+    font-weight: 400;
+    font-size: 200%;
+    color: blanchedalmond;
+    text-transform: uppercase;
+}
+
+.contentimage p{
+    font-weight:200;
+    font-size: 100%;
+    color: blanchedalmond;
+    text-align:center;
+    padding-top: 5px;
+    
+}
+
+.contentimage button {
+    text-decoration: none;
+    border: none;
+    padding: 20px 30px;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: 20px;
+    text-transform: uppercase;
+    cursor: pointer;
+    
+}
+
+.contentimage button:hover{
+    color:green;
+    background: rgb(32, 17, 6);
+    border: 1px green solid;
+    transition-duration: 0.4s;
+    
+}
+
+.space{
+    margin-top: 30px;
+}
+
+/*------CATALOG NAV bar---------*/
+
+#catalogbox{
+    background-color: antiquewhite;
+    width: 100%;
+    height: 50px;
+    position: relative;
+    padding: 0%;
+    margin: 0%;
+    
 
 }
 
-* {
-    background-color: aquamarine;
+.nav2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 1px;
+    padding-left: 35%;
+    padding-right: 10%;
 }
 
-body{
-    font-family: sans-serif;
-}
 
-img{
-    border-style:solid ;
-    border-color: #f4d069;
-    margin: auto;
+
+.nav2 ul li{
+    align-items: center;
+    list-style-type: none;
+    display: inline-block;
+    padding: 15px 30px;
+
     
     
 }
 
-#center{
-    display: block;
-    margin: auto;
+.nav2 ul li a{
+    color: grey;
+    text-decoration: none;
+    font-weight: bold;
 
+}
+
+.nav2 ul li a:hover{
+    color:rgba(255, 0, 0, 0.623);
+    text-decoration: none;
+    font-weight: bold;
+    transition-duration: 0.4s;
+
+}
+/*----Start of the catalog-----*/
+
+.margin{
+    margin: 20px 200px 20px 200px;
 }
 
 .gallary{
     display: inline-block;
     border: 5px solid hsl(0, 0%, 60%);
     margin: 10px;
-    border: #1c4c85 solid;
-    background-color: #f4d069;
+    border: grey solid;
+    background-color: wheat;
 }
 .gallary:hover{
-    border: 5px #1c4c85
+    border: 5px grey
     
 }
-
-
-.cabin-sketch-bold { 
-    font-family: "Cabin Sketch", sans-serif;
-    font-weight: 700;
-    font-style: normal;
-  }
-
