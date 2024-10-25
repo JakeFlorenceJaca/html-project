@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Card</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+    <style>
+        body {
+            background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(images/contact_img.jpg.png);
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .profile-card {
+            background-color: #222;
+            color: white;
+            border-radius: 15px;
+            padding: 30px;
+            text-align: center;
+            width: 320px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        .profile-card img {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            margin-bottom: 15px;
+        }
+
+        .profile-card h2 {
+            margin-bottom: 5px;
+        }
+
+        .profile-card p.location {
+            color: #a5ff3d;
+            font-size: 0.9em;
+            margin: 0;
+        }
+
+        .profile-card p.bio {
+            font-style: italic;
+            margin: 10px 0;
+        }
+
+        .profile-card button {
+            background-color: #3a3a3a;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            margin: 5px 0;
+            border-radius: 5px;
+            cursor: pointer;
+            width: 100%;
+            font-size: 1em;
+        }
+
+        .profile-card button:hover {
+            background-color: #555;
+        }
+
+        .profile-card button:active {
+            background-color: #777;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="profile-card">
+        <img src="images/profile.jpg" alt="Profile Picture">
+        <h2>Jake Florence D. Jaca</h2>
+        <p class="location">Cebu City, Philippines</p>
+        <p class="bio">"ToT"</p>
+        <button onclick="document.location='https://www.facebook.com/jakeflorence.jaca.3'">Facebook</button>
+        <button onclick="document.location='https://www.instagram.com/wat_a_jakejacaflorence/'">Instagram</button>
+        <button onclick="document.location='https://www.tiktok.com/@jakejaca09'">Tiktok</button>
+        <button onclick="document.location='https://x.com/Jake_09121314'">Twitter</button>
+        <button onclick="document.location='https://github.com/JakeFlorenceJaca'">GitHub</button>
+    </div>
+    <div>
+        <a class="cont_bot" href="contact.html">
+            <button type="button">Back to page</button>
+        </a>
+</body>
+</html>
