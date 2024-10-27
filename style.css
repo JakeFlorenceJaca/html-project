@@ -249,7 +249,7 @@
     position: absolute;
     background-color: blue;
     width: 380px;
-    height: 400px;
+    height: 340px;
     z-index: -1;
     border-radius: 2%;
 
@@ -260,7 +260,7 @@
 .img_prof{
 
     width: 380px;
-    height: 400px;
+    height: 340px;
     border-radius: 2%;
 }
 
