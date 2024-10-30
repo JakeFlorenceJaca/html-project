@@ -29,11 +29,12 @@
 .box2{
     background-color: wheat;
     width: 80px;
-    height: 70px;
+    height: 60px;
     border-radius: 50%;
     position: absolute;
     top: 15%;
     left: 60px;
+    z-index: -1;
     
 
 }
@@ -247,7 +248,7 @@
 
 .imgcontainer{
     position: absolute;
-    background-color: blue;
+    background-color: rgb(32, 17, 6);
     width: 380px;
     height: 340px;
     z-index: -1;
@@ -327,7 +328,7 @@
 
 .imgcontainer2{
     position: absolute;
-    background-color: blue;
+    background-color:rgb(32, 17, 6);
     width: 1000px;
     height: 500px;
     z-index: -1;
@@ -341,6 +342,136 @@
     width: 1000px;
     height: 500px;
     border-radius: 2%;
+}
+
+@media(max-width: 1231px) {
+    .nav1{
+        padding:  60px 20px;
+        padding-bottom: 10px
+    }
+    .box2{
+        height: 60px;
+        top: 10%;
+        left: 30px;
+    }
+    #box1{
+        height: 120px;
+    }
+
+    .nav2{
+        padding-top: 1px;
+        padding-left: 10%;
+        padding-right:10%;
+    }    
+
+    .logo{
+        font-size: 1.5rem;
+    }
+
+    .nav1 ul li a{
+        font-size: 1.0rem;
+    }
+
+    .margin{
+        margin: 50px 20px 20px 20px;
+    }
+
+    .aboutusmargin{
+        margin: 20px 20px 20px 240px;
+        font-size: 0.5rem;   
+    }
+
+    .imgcontainer{
+        width: 200px;
+        height: 200px;
+    
+        top: 200px;
+        left: 30px;    
+            
+    }
+
+    .img_prof{
+        width: 200px;
+        height: 200px;
+    }
+    
+
+
+    .contactmargin{
+        margin: 200px 50px 100px 20px;
+        width: 250px;
+        height: 250px;
+        padding-left: 30px;
+        padding-top: 15px;
+        font-size: 0.5rem;
+    }
+
+
+    .cont_bot button {
+        margin-left: 40px;
+        padding: 10px 10px;
+        border-radius: 5px;
+    }
+    
+    .imgcontainer2{
+        width: 20px;
+        height: 300px;
+        z-index: -1;
+        border-radius: 10px;
+
+        top: 250px;
+        left: 50px;
+    }
+
+    .img_prof2{
+
+        width: 500px;
+        height: 500px;
+        border-radius: 10px;
+    }   
+
+}
+
+@media(max-width: 600px){
+    .contactmargin{
+        margin: 200px 50px 100px 20px;
+        width: 250px;
+        height: 250px;
+        padding-left: 30px;
+        padding-top: 15px;
+        font-size: 0.5rem;
+    }
+
+
+   
+
+
+    .cont_bot button {
+        margin-left: 40px;
+        padding: 10px 10px;
+        border-radius: 5px;
+    }
+    
+    .imgcontainer2{
+        width: 350px;
+        height: 300px;
+        z-index: -1;
+        border-radius: 10px;
+
+        top: 250px;
+        left: 50px;
+    }
+
+    .img_prof2{
+
+        width: 350px;
+        height: 300px;
+        border-radius: 10px;
+    }
+    
+
+
+
 }
 
 
