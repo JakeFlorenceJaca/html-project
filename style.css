@@ -12,6 +12,13 @@
     margin: 20px 200px 20px 200px;
 }
 
+.img2{
+    width: 400px;
+    height: 400px;
+    margin-left: 20%;
+    border: 2px rgb(48, 43, 38) solid
+}
+
 /* Navigation bar */
 
 #box1{
@@ -75,7 +82,7 @@
     font-weight: bold;
     transition-duration: 0.4s;
 }
-/*Navigation bar */
+/*Navigation bar  */
 
 .contentimage{
     height: 100vh;
@@ -344,13 +351,72 @@
     border-radius: 2%;
 }
 
-@media(max-width: 1231px) {
+.profile-card {
+    background-color: #222;
+    color: white;
+    border-radius: 15px;
+    padding: 30px;
+    text-align: center;
+    width: 320px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+     margin-top: 100px;
+     margin-left: 500px ;
+}
+
+.profile-card img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+
+.profile-card h2 {
+    margin-bottom: 5px;
+}
+
+.profile-card p.location {
+    color: #a5ff3d;
+    font-size: 0.9em;
+    margin: 0;
+}
+
+.profile-card p.bio {
+    font-style: italic;
+    margin: 10px 0;
+}
+
+.profile-card button {
+    background-color: #3a3a3a;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px 0;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 1em;
+}
+
+.profile-card button:hover {
+    background-color: #555;
+}
+
+.profile-card button:active {
+    background-color: #777;
+}
+
+.profile_back{
+    margin-left: 30px;    
+}
+
+
+@media(max-width: 1000px) {
     .nav1{
         padding:  60px 20px;
         padding-bottom: 10px
     }
     .box2{
-        height: 60px;
+        height: 70px;
         top: 10%;
         left: 30px;
     }
@@ -394,6 +460,12 @@
         width: 200px;
         height: 200px;
     }
+
+    .contentimage{
+        font-size: 0.8rem;
+    
+        
+    }
     
 
 
@@ -425,14 +497,14 @@
 
     .img_prof2{
 
-        width: 500px;
-        height: 500px;
+        width: 650px;
+        height: 400px;
         border-radius: 10px;
     }   
 
 }
 
-@media(max-width: 600px){
+@media(max-width: 750px){
     .contactmargin{
         margin: 200px 50px 100px 20px;
         width: 250px;
@@ -464,19 +536,93 @@
 
     .img_prof2{
 
-        width: 350px;
+        width: 500px;
         height: 300px;
         border-radius: 10px;
+    }  
+
+
+    .contentimage{
+        font-size: 0.7rem;   
     }
     
-
-
-
 }
 
 
+@media(max-width: 400px){
+    .nav1{
+        padding:  70px 15px;
+        padding-bottom: 1px
+    }
+
+    .nav1 ul li a{
+        font-size: 0.9rem;
+    }
+    
+    .nav2{
+        padding-top: 1px;
+        padding-left: 0%;
+        padding-right:0%;
+        font-size: 0.9rem; 
+    }
+
+    .gallary img{
+        width:152px;
+        height:160px;
+    }
+    /*---about page----*/
+
+    .aboutusmargin{
+        margin: 70px 190px 20px 20px;
+        font-size: 0.5rem;   
+    }
 
 
+    .imgcontainer{
+        width: 150px;
+        height: 150px;
+    
+        top: 230px;
+        left: 210px;    
+            
+    }
 
+    .img_prof{
+        width: 170px;
+        height: 170px;
+    }
+    /*--contact----*/
+    .imgcontainer2{
+        width:340px;
+        height:330px;
+        z-index: -1;
+        border-radius: 10px;
 
+        top: 280px;
+        left: 40px;
+    }
+
+    .img_prof2{
+
+        width: 340px;
+        height: 330px;
+        border-radius: 10px;
+    }
+
+    .img2{
+        width: 300px;
+        height: 300px;
+        margin-left: 5%;
+    }
+
+    .profile-card{
+        margin-left: 10% ;
+    }
+
+    .profile_back{
+        margin-top:20px;
+        margin-left:100px;    
+    }
+
+}   
 
