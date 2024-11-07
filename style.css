@@ -36,8 +36,8 @@
 .box2{
     background-color: wheat;
     width: 80px;
-    height: 60px;
-    border-radius: 50%;
+    height: 70px;
+    border-radius: 70%;
     position: absolute;
     top: 15%;
     left: 60px;
@@ -567,8 +567,8 @@
     }
 
     .gallary img{
-        width:152px;
-        height:160px;
+        width:130px;
+        height:150px;
     }
     /*---about page----*/
 
