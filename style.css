@@ -240,10 +240,17 @@
     
 }
 
+
 .aboutus h2{
     font-weight: 400;
     font-size: 200%;
     color: blanchedalmond;
+}
+
+.aboutus h3{   
+    color: blanchedalmond;
+    text-transform: uppercase;
+    
 }
 
 .aboutus p{
@@ -264,7 +271,7 @@
     width: 380px;
     height: 340px;
     z-index: -1;
-    border-radius: 2%;
+    border-radius: 40%;
 
     top: 230px;
     left: 199px;
@@ -274,7 +281,8 @@
 
     width: 380px;
     height: 340px;
-    border-radius: 2%;
+    border-radius: 50%;
+    border-style: outset;
 }
 
 /*-----contact-----*/
