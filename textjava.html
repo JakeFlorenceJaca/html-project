@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Double Click Alert</title>
+</head>
+<body>
+    <button id="downloadButton">Download Image</button>
+
+    <script> let clickCount = 0; // Initialize click count
+
+        document.getElementById('downloadButton').addEventListener('click', function() {
+            clickCount++; // Increment the click count each time the button is clicked
+            
+            if (clickCount === 2) {
+                // Show alert when the button is clicked twice
+                const userResponse = confirm("You already downloaded the image. Would you like to download it again?");
+                if (userResponse) {
+                    console.log("User chose to download again.");
+                } else {
+                    console.log("User canceled the download.");
+                }
+                clickCount = 0; // Reset the count after the alert
+            }
+        });
+        </script>
+</body>
+</html>
