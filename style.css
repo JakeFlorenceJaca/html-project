@@ -555,8 +555,7 @@ ul{
     color: white;
     text-align: center;
     padding-top: 30px;
-    
-    
+    bottom: 0;
 }
 
 .copyright a {
